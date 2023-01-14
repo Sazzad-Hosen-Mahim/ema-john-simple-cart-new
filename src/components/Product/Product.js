@@ -6,6 +6,7 @@ import './Product.css';
 const Product = ({product, handleAddToCart}) => {
     // const {product, handleAddToCart} = props;
     const { name, img, seller, price, ratings } = product;
+    // console.log(product)
     
     return (
         <div className='product'>
